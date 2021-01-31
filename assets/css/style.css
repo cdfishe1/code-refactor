@@ -66,7 +66,7 @@ nav ul li {
 }
 
 /* Background image below header */
-.horiseonStaff {
+.hero-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -75,26 +75,16 @@ nav ul li {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-} 
-
-
-/* Main section showing three core aspects of business */
+/* Main section contains seo, reputation, and social media subsections */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* Search engine optimization section */
-.search-engine-optimization {
+/* Search engine optimization subsection */
+main .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -103,17 +93,17 @@ main {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+main .search-engine-optimization img {
     max-height: 200px;
 }
 
-.search-engine-optimization h3 {
+main .search-engine-optimization h3 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* Online reputation section */
-.online-reputation-management {
+/* Online reputation subsection */
+main .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -122,17 +112,17 @@ main {
     color: #ffffff;
 }
 
-.online-reputation-management img {
+main .online-reputation-management img {
     max-height: 200px;
 }
 
-.online-reputation-management h3 {
+main .online-reputation-management h3 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* Social media marketing section */
-.social-media-marketing {
+/* Social media marketing subsection */
+main .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -141,17 +131,28 @@ main {
     color: #ffffff;
 }
 
-.social-media-marketing img {
+main .social-media-marketing img {
     max-height: 200px;
 }
 
-.social-media-marketing h3 {
+main .social-media-marketing h3 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Allows images in main section to float left or right as needed */
+main .float-left {
+    float: left;
+    margin-right: 25px;
+}
 
-/* Aside section to right of main detailing reasons for Horiseon core business */
+main .float-right {
+    float: right;
+    margin-left: 25px;
+} 
+
+
+/* Aside section to right of main section contains lead-generation, brand awareness, cost management subsections */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -163,59 +164,59 @@ aside {
     background-color: #2589bd;
 }
 
-/* Styles lead generation section */
-.lead-generation {
+/* Lead generation subsection */
+aside .lead-generation {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.lead-generation h3 {
+aside .lead-generation h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.lead-generation img {
+aside .lead-generation img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* Styles brand awareness section */
-.brand-awareness {
+/* Brand awareness subsection */
+aside .brand-awareness {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.brand-awareness img {
+aside .brand-awareness img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.brand-awareness h3 {
+aside .brand-awareness h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* Styles cost management section */
-.cost-management {
+/* Cost management subsection */
+aside .cost-management {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.cost-management h3 {
+aside .cost-management h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.cost-management img {
+aside .cost-management img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 
-
+/* Footer */
 footer {
     padding: 30px;
     clear: both;
