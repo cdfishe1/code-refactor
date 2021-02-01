@@ -65,7 +65,8 @@ nav ul li {
     margin-left: 25px;
 }
 
-/* Background image below header */
+/* Hero
+ image below header */
 .hero-image {
     height: 800px;
     width: 100%;
@@ -84,7 +85,7 @@ main {
 }
 
 /* Subsections of main section */
-main .main-subsection {
+.main-subsection {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -93,28 +94,30 @@ main .main-subsection {
     color: #ffffff;
 }
 
-main .main-subsection img {
+.main-subsection img {
     max-height: 200px;
 }
 
-main .main-subsection h3 {
+.main-subsection h3 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 /* Allows images in main subsections to float left or right as needed */
-main .float-left {
+.main-subsection .float-left {
     float: left;
     margin-right: 25px;
 }
 
-main .float-right {
+.main-subsection .float-right {
     float: right;
     margin-left: 25px;
 } 
 
 
-/* Benefits section to right of main section with benefits of Horiseon work */
+
+
+/* Section to right of main section with benefits of Horiseon work */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -127,17 +130,17 @@ aside {
 }
 
 /* Subsections for benefits section */
-aside .benefits-subsection {
+.benefits-subsection {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-aside .benefits-subsection h3 {
+.benefits-subsection h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-aside .benefits-subsection img {
+.benefits-subsection img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
