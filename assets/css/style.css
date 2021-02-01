@@ -4,6 +4,7 @@
     margin: 0;
 }
 
+/* General */
 body {
     background-color: #d9dcd6;
 }
@@ -17,18 +18,17 @@ p {
     font-size: 16px;
 }
 
-/* Allows hidden headings so screen readers can ready them */
-.offscreen
-{
-position: absolute;
-clip: rect(1px 1px 1px 1px); /* for Internet Explorer */
-clip: rect(1px, 1px, 1px, 1px);
-padding: 0;
-border: 0;
-height: 1px;
-width: 1px;
-overflow: hidden;
-}
+/* Allows hidden headings so screen readers can read them.
+   Found at: https://css-tricks.com/snippets/css/accessibilityseo-friendly-css-hiding/ 
+*/
+.offscreen {
+    position: absolute !important;
+    height: 1px; 
+    width: 1px; 
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+  }
 
 /* Header section containing navigation */
 header {
@@ -83,8 +83,8 @@ main {
     margin-left: 20px;
 }
 
-/* Search engine optimization subsection */
-main .search-engine-optimization {
+/* Subsections of main section */
+main .main-subsection {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -93,54 +93,16 @@ main .search-engine-optimization {
     color: #ffffff;
 }
 
-main .search-engine-optimization img {
+main .main-subsection img {
     max-height: 200px;
 }
 
-main .search-engine-optimization h3 {
+main .main-subsection h3 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* Online reputation subsection */
-main .online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-main .online-reputation-management img {
-    max-height: 200px;
-}
-
-main .online-reputation-management h3 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* Social media marketing subsection */
-main .social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-main .social-media-marketing img {
-    max-height: 200px;
-}
-
-main .social-media-marketing h3 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* Allows images in main section to float left or right as needed */
+/* Allows images in main subsections to float left or right as needed */
 main .float-left {
     float: left;
     margin-right: 25px;
@@ -152,7 +114,7 @@ main .float-right {
 } 
 
 
-/* Aside section to right of main section contains lead-generation, brand awareness, cost management subsections */
+/* Benefits section to right of main section with benefits of Horiseon work */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -164,57 +126,22 @@ aside {
     background-color: #2589bd;
 }
 
-/* Lead generation subsection */
-aside .lead-generation {
+/* Subsections for benefits section */
+aside .benefits-subsection {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-aside .lead-generation h3 {
+aside .benefits-subsection h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-aside .lead-generation img {
+aside .benefits-subsection img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-/* Brand awareness subsection */
-aside .brand-awareness {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-aside .brand-awareness img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-aside .brand-awareness h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* Cost management subsection */
-aside .cost-management {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-aside .cost-management h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-aside .cost-management img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
 
 /* Footer */
 footer {
