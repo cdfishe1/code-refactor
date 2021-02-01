@@ -28,6 +28,7 @@ p {
     overflow: hidden;
     clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
     clip: rect(1px, 1px, 1px, 1px);
+
   }
 
 /* Header section containing navigation */
@@ -65,8 +66,7 @@ nav ul li {
     margin-left: 25px;
 }
 
-/* Hero
- image below header */
+/* Hero banner image below header */
 .hero-image {
     height: 800px;
     width: 100%;
@@ -114,9 +114,6 @@ main {
     margin-left: 25px;
 } 
 
-
-
-
 /* Section to right of main section with benefits of Horiseon work */
 aside {
     margin-right: 20px;
@@ -129,7 +126,7 @@ aside {
     background-color: #2589bd;
 }
 
-/* Subsections for benefits section */
+/* Subsections for benefits (aside) section */
 .benefits-subsection {
     margin-bottom: 32px;
     color: #ffffff;
