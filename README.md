@@ -1,4 +1,4 @@
-[(assets/images/license-MIT-green.svg)] 
+!(assets/images/license-MIT-green.svg)
 
 
 # Horiseon Code Refactor Project
@@ -26,7 +26,7 @@ Deploy the html file and assets folder that contains the images and css file on 
 
 ## Featured Code
 
-I added hidden headings to sections that lacked a visible heading. In order to this without change to the layout of the landing page, I used the following css in Chris Coyer's CSS-Tricks article [("Accessibility/SEO Friendly CSS Handling)https://css-tricks.com/snippets/css/accessibilityseo-friendly-css-hiding/]
+I added hidden headings to sections that lacked a visible heading. In order to this without change to the layout of the landing page, I used the following css in Chris Coyer's CSS-Tricks article (Accessibility/SEO Friendly CSS Handling)[https://css-tricks.com/snippets/css/accessibilityseo-friendly-css-hiding/]
 
 ```
 .element-invisible {
@@ -40,14 +40,14 @@ I added hidden headings to sections that lacked a visible heading. In order to t
 
 ## Testing
 
-Tested accessibility using [(WAVE web accessbility evaluation tool)https://wave.webaim.org/report#/https://cdfishe1.github.io/code-refactor/]
+Tested accessibility using (WAVE web accessbility evaluation tool)[https://wave.webaim.org/report#/https://cdfishe1.github.io/code-refactor/]
 
 * Generates 0 errors.
 * Contrast errors unavoidable due to requiremnt to maintain the design of the landing page.
 
 ## Credits
 
-* Chris Coyer. [("Accessibility/SEO Friendly CSS Handling)https://css-tricks.com/snippets/css/accessibilityseo-friendly-css-hiding/]
+* Chris Coyer. (Accessibility/SEO Friendly CSS Handling)[https://css-tricks.com/snippets/css/accessibilityseo-friendly-css-hiding/]
 
 ## License
 
@@ -55,7 +55,7 @@ Copyright (c) Horiseon Social Services Inc. All rights reserved.
 
 Licensed under the **MIT License**
 
-Copyright (c) [year] [fullname]
+Copyright (c) [2021] [Charles Fisher]
 
 >Permission is hereby granted, free of charge, to any person obtaining a copy
 >of this software and associated documentation files (the "Software"), to deal
