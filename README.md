@@ -63,9 +63,9 @@ Tested accessibility using [WAVE web accessbility evaluation tool](https://wave.
 
 Copyright (c) Horiseon Social Services Inc. All rights reserved.
 
-Licensed under the <details open><summary>MIT License</summary>
+<details><summary>Licensed under the MIT License</summary>
 
-Copyright (c) 2021 Charles Fisher
+Copyright (c) 2021 - present | Horizon Social Services Inc.
 
 <blockquote>
 Permission is hereby granted, free of charge, to any person obtaining a copy
