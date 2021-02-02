@@ -7,7 +7,7 @@ I was hired by Horiseon Social Services Solutions Inc. to refactor their landing
 
 ## Table of Contents
 * [Horiseon Social Services Landing Page](#horiseon-landing-page)
-* [Project Highlights](#project-highlights)
+* [Scope of Project](#scope-of-project)
 * [Installation](#installation)
 * [Featured Code](#featured-code)
 * [Testing](#testing)
@@ -18,11 +18,11 @@ I was hired by Horiseon Social Services Solutions Inc. to refactor their landing
 
 ![Image of Horiseon Landing Page](assets/images/01-html-css-git-homework-demo.png)
 
-## Project Highlights
+## Scope of Project
 
 * Replaced All `<div>` elements with semantic elements.
 * Gave non-icon images `alt` attributes.
-* Fixed anchors in the navigation bar were to link to their respective page section.
+* Fixed anchors in the navigation bar to link to their respective page section.
 * Reorganized headings to show site structure better.
 * Added hidden headings to sections without visibile section headings. [See Featured Code](#featured-code)
 * Reorganized CSS to correspond to section structure.
@@ -35,7 +35,7 @@ Deploy the html file and assets folder that contains the images and css file on 
 
 ## Featured Code
 
-I added hidden headings to sections that lacked a visible heading. In order to this without change to the layout of the landing page, I used the following css in Chris Coyer's CSS-Tricks article [Accessibility/SEO Friendly CSS Handling](https://css-tricks.com/snippets/css/accessibilityseo-friendly-css-hiding/)
+I added hidden headings to sections that lacked a visible heading. In order to implement this without change to the layout of the landing page, I used the following css in Chris Coyer's CSS-Tricks article [Accessibility/SEO Friendly CSS Handling](https://css-tricks.com/snippets/css/accessibilityseo-friendly-css-hiding/)
 
 ```
 .element-invisible {
@@ -52,7 +52,7 @@ I added hidden headings to sections that lacked a visible heading. In order to t
 Tested accessibility using [WAVE web accessbility evaluation tool](https://wave.webaim.org/report#/https://cdfishe1.github.io/code-refactor/)
 
 * Generates 0 errors.
-* Contrast errors unavoidable due to requiremnt to maintain the design of the landing page.
+* Contrast errors unavoidable due to requirement to maintain the design of the landing page.
 
 ## Credits
 
