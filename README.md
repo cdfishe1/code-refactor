@@ -1,4 +1,4 @@
-![MIT License](assets/images/license-MIT-green.svg)
+[![Generic badge](https://img.shields.io/badge/license-MIT-<COLOR>.svg)](#license)
 
 
 # Horiseon Code Refactor Project
