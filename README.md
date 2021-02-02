@@ -5,7 +5,16 @@
 
 I was hired by Horiseon Social Services Solutions Inc. to refactor their landing page in order to enhance its accessibility for search engines.
 
-## Horiseon Social Services Landing Page
+## Table of Contents
+* [Horiseon Social Services Landing Page](#horiseon-landing-page)
+* [Project Highlights](#project-highlights)
+* [Installation](#installation)
+* [Featured Code](#featured-code)
+* [Testing](#testing)
+* [Credits](#credits)
+* [License](#license)
+
+## Horiseon Landing Page
 
 ![Image of Horiseon Landing Page](assets/images/01-html-css-git-homework-demo.png)
 
@@ -74,7 +83,3 @@ Copyright (c) [2021] [Charles Fisher]
 >LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 >OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 >SOFTWARE.
-
-
-
-
