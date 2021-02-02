@@ -1,4 +1,4 @@
-!(assets/images/license-MIT-green.svg)
+![MIT License](assets/images/license-MIT-green.svg)
 
 
 # Horiseon Code Refactor Project
