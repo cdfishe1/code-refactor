@@ -3,10 +3,11 @@
 
 # Horiseon Code Refactor Project
 
-I was hired by Horiseon Social Services Solutions Inc. to refactor their landing page in order to enhance its accessibility for search engines.
+I was hired by Horiseon Social Solution Services Inc. to refactor their landing page in order to enhance its accessibility for search engines.
 
 ## Table of Contents
-* [Horiseon Social Services Landing Page](#horiseon-landing-page)
+* [Horiseon Social Solution Services Landing Page](#horiseon-landing-page)
+* [Deployment](#deployment)
 * [Scope of Project](#scope-of-project)
 * [Installation](#installation)
 * [Featured Code](#featured-code)
@@ -17,6 +18,10 @@ I was hired by Horiseon Social Services Solutions Inc. to refactor their landing
 ## Horiseon Landing Page
 
 ![Image of Horiseon Landing Page](assets/images/01-html-css-git-homework-demo.png)
+
+## Deployment
+
+Site deployed at [Horiseon Social Solution Services Inc.](https://cdfishe1.github.io/code-refactor/)
 
 ## Scope of Project
 
@@ -61,11 +66,11 @@ Tested accessibility using [WAVE web accessbility evaluation tool](https://wave.
 
 ## License
 
-Copyright (c) Horiseon Social Services Inc. All rights reserved.
+Copyright (c) Horiseon Social Solution Services Inc. All rights reserved.
 
 <details><summary>Licensed under the MIT License</summary>
 
-Copyright (c) 2021 - present | Horizon Social Services Inc.
+Copyright (c) 2021 - present | Horizon Social Solution Services Inc.
 
 <blockquote>
 Permission is hereby granted, free of charge, to any person obtaining a copy
