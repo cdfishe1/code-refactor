@@ -21,14 +21,10 @@ p {
 /* Allows hidden headings so screen readers can read them.
    Found at: https://css-tricks.com/snippets/css/accessibilityseo-friendly-css-hiding/ 
 */
-.offscreen {
-    position: absolute !important;
-    height: 1px; 
-    width: 1px; 
-    overflow: hidden;
-    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-    clip: rect(1px, 1px, 1px, 1px);
-
+.screen-reader-text {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
   }
 
 /* Header section containing navigation */

@@ -32,7 +32,7 @@ Site deployed at [Horiseon Social Solution Services Inc.](https://cdfishe1.githu
 * Added hidden headings to sections without visibile section headings. [See Featured Code](#featured-code)
 * Reorganized CSS to correspond to section structure.
 * Refactored CSS to eliminate repetitious code.
-* Comments were added in both html and css files to allow for easier site maintenance.
+* Added comments in both html and css files to allow for easier site maintenance.
 
 ## Installation
 
@@ -43,12 +43,10 @@ Deploy the html file and assets folder that contains the images and css file on 
 I added hidden headings to sections that lacked a visible heading. In order to implement this without change to the layout of the landing page, I used the following css in Chris Coyer's CSS-Tricks article [Accessibility/SEO Friendly CSS Handling](https://css-tricks.com/snippets/css/accessibilityseo-friendly-css-hiding/)
 
 ```
-.element-invisible {
-  position: absolute !important;
-  height: 1px; width: 1px; 
-  overflow: hidden;
-  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
+.screen-reader-text {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
 }
 ```
 
