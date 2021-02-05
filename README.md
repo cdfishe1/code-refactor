@@ -1,4 +1,6 @@
 [![Generic badge](https://img.shields.io/badge/license-MIT-<COLOR>.svg)](#license)
+![GitHub language count](https://img.shields.io/github/languages/count/cdfishe1/code-refactor)
+![GitHub top language](https://img.shields.io/github/languages/top/cdfishe1/code-refactor)
 
 
 # Horiseon Code Refactor Project
