@@ -44,6 +44,7 @@ I added hidden headings to sections that lacked a visible heading. In order to i
 
 ```
 .screen-reader-text {
+  
   position: absolute;
   top: -9999px;
   left: -9999px;

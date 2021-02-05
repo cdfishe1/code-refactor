@@ -21,7 +21,7 @@ p {
 /* Allows hidden headings so screen readers can read them.
    Found at: https://css-tricks.com/snippets/css/accessibilityseo-friendly-css-hiding/ 
 */
-.screen-reader-text {
+.offscreen {
     position: absolute;
     top: -9999px;
     left: -9999px;
