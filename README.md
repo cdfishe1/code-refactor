@@ -33,6 +33,7 @@ Site deployed at [Horiseon Social Solution Services Inc.](https://cdfishe1.githu
 * Reorganized CSS to correspond to section structure.
 * Refactored CSS to eliminate repetitious code.
 * Added comments in both html and css files to allow for easier site maintenance.
+* Added ARIA metadata to allow heart emoji to be read by screen readers.
 
 ## Installation
 
